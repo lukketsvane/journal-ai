@@ -66,7 +66,7 @@ export default async function handler (req: NextRequest, res: NextResponse) {
   });
   retriever.setMemoryStream(loadedDocs);
   const model = new ChatOpenAI({
-    modelName: "gpt-4",
+    modelName: "gpt-3.5-turbo",
     temperature: 0.9,
   });
   // Anthropic will err on the side of not making assumptions and not give responses at times

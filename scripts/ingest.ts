@@ -97,7 +97,7 @@ const ingest = async () => {
 
   const llm = new ChatOpenAI({
     temperature: 0.9,
-    modelName: "gpt-4"
+    modelName: "gpt-3.5-turbo"
   });
   // Anthropic works well here too!
   // const llm = new ChatAnthropic({
